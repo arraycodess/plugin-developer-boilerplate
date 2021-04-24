@@ -1,0 +1,20 @@
+{
+    "name": "heitor/plugin-developer-boilerplate",
+    "type": "wordpress-plugin",
+    "description": "",
+    "license": "GPL-3.0-or-later",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Heitor",
+            "email": "heitorspedroso@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "PluginDeveloperBoilerplate\\": "./src"
+      }
+    }
+}
