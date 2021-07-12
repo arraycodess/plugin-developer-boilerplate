@@ -1,33 +1,43 @@
 <?php
+/**
+ * PluginDeveloperBoilerplate Init
+ *
+ * @version 1.0.1
+ * @package 'plugin-developer-boilerplate
+ */
 
 namespace PluginDeveloperBoilerplate;
 
-if ( ! defined( 'ABSPATH' ) )
+if ( ! defined( 'ABSPATH' ) ) {
 	exit;
+}
 
-if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ):
+if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ) :
 	/**
 	 * Class PluginDeveloperBoilerplate
-	 * @package PluginDeveloperBoilerplate
-	 * @author Heitor <heitorspedroso@gmail.com>
-	 * @version 1.0.0
 	 */
 	final class PluginDeveloperBoilerplate {
 
 		/**
+		 * Const PLUGIN_PATH
+		 *
 		 * @const PLUGIN_PATH
 		 */
 		public const PLUGIN_PATH = __FILE__;
 
 		/**
+		 * Instance of this class.
+		 *
 		 * @var $instance
 		 */
 		protected static $instance = null;
 
 		/**
+		 * Return an instance of this class.
+		 *
 		 * @return static::$instance
 		 */
-		final public static function instance() {
+		public static function instance() {
 			if ( null === static::$instance ) {
 				static::$instance = new static();
 			}
@@ -38,52 +48,29 @@ if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ):
 		 * PluginDeveloperBoilerplate constructor.
 		 */
 		public function __construct() {
-			$this->registerHooks();
+			$this->register_hooks();
+			$this->register_classes();
 		}
 
 		/**
-		 * registerHooks
+		 * Register_hooks function.
 		 */
-		private function registerHooks(){
-			register_activation_hook( self::PLUGIN_PATH, [$this, 'activate'] );
-			register_deactivation_hook ( self::PLUGIN_PATH, [$this, 'deactivate'] );
-
-			// Load plugin text domain.
-			add_action( 'init', [$this, 'loadPluginTextDomain'] );
+		private function register_hooks() {
+			add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 		}
 
 		/**
-		 * activate
+		 * Register_classes function.
 		 */
-		private function activate(){
-			Activate::activate();
+		private function register_classes() {
+
 		}
 
 		/**
-		 * deactivate
+		 * Load_plugin_textdomain function
 		 */
-		private function deactivate(){
-			Deactivate::deactivate();
-		}
-
-		/**
-		 * loadPluginTextDomain
-		 */
-		public function loadPluginTextDomain() {
-			load_plugin_textdomain( 'plugin-developer-boilerplate', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-		}
-
-		/**
-		 * Debug
-		 */
-		public function debugMe( $message ) {
-			if ( WP_DEBUG === true ) {
-				if ( is_array( $message ) || is_object( $message ) ) {
-					error_log( print_r( $message, true ) );
-				} else {
-					error_log( $message );
-				}
-			}
+		public function load_plugin_textdomain() {
+			load_plugin_textdomain( 'plugin-developer-boilerplate', false, dirname( plugin_basename( self::PLUGIN_PATH ) ) . '/i18n/languages/' );
 		}
 	}
 endif;

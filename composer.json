@@ -11,10 +11,12 @@
             "email": "heitorspedroso@gmail.com"
         }
     ],
-    "require": {},
     "autoload": {
       "psr-4": {
         "PluginDeveloperBoilerplate\\": "./src"
       }
+    },
+    "require-dev": {
+        "woocommerce/woocommerce-sniffs": "^0.1.0"
     }
 }
