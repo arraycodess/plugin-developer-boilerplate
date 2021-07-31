@@ -1,4 +1,4 @@
-# WordPress Plugin Developer Boilerplate
+# Plugin Developer Boilerplate
 :us: - Starter package to start developing plugins with modern PHP.
 
 :brazil: - Pacote inicial para começar a desenvolver plugins com PHP moderno.
