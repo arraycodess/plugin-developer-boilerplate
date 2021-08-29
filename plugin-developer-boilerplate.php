@@ -40,10 +40,10 @@ if ( ! class_exists( 'Activate' ) ) :
 	/**
 	 * Activate function.
 	 */
-	function activate() {
+	function activate_plugin_developer_boilerplate() {
 		Activate::activate();
 	}
-	register_activation_hook( __FILE__, 'activate' );
+	register_activation_hook( __FILE__, 'activate_plugin_developer_boilerplate' );
 endif;
 
 
@@ -51,10 +51,10 @@ if ( ! class_exists( 'Deactivate' ) ) :
 	/**
 	 * Deactivate function.
 	 */
-	function deactivate() {
+	function deactivate_plugin_developer_boilerplate() {
 		Deactivate::deactivate();
 	}
-	register_deactivation_hook( __FILE__, 'deactivate' );
+	register_deactivation_hook( __FILE__, 'deactivate_plugin_developer_boilerplate' );
 endif;
 
 if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ) :
