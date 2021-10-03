@@ -23,7 +23,7 @@ if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ) :
 		 *
 		 * @const PLUGIN_PATH
 		 */
-		public const PLUGIN_PATH = __FILE__;
+		const PLUGIN_PATH = __FILE__;
 
 		/**
 		 * Instance of this class.
@@ -70,7 +70,7 @@ if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ) :
 		 * Load_plugin_textdomain function
 		 */
 		public function load_plugin_textdomain() {
-			load_plugin_textdomain( 'plugin-developer-boilerplate', false, dirname( plugin_basename( self::PLUGIN_PATH ) ) . '/i18n/languages/' );
+			load_plugin_textdomain( 'plugin-developer-boilerplate', false, dirname( plugin_basename( __FILE__ ), 2 ) . '/i18n/languages/');
 		}
 	}
 endif;

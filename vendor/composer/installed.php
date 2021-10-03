@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7b9048d383b44a72be9541920237a2a1abf092e2',
+    'reference' => '51ae4cc35fc85ce05afbd9411984f31830c4381e',
     'name' => 'heitor/plugin-developer-boilerplate',
   ),
   'versions' => 
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7b9048d383b44a72be9541920237a2a1abf092e2',
+      'reference' => '51ae4cc35fc85ce05afbd9411984f31830c4381e',
     ),
     'phpcompatibility/php-compatibility' => 
     array (
