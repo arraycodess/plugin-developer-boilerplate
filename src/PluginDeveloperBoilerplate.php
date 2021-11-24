@@ -57,13 +57,15 @@ if ( ! class_exists( 'PluginDeveloperBoilerplate' ) ) :
 		 */
 		private function register_hooks() {
 			add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
+			/** Add_action( 'woocommerce_after_shop_loop_item_title', array( DescriptionProduct::class, 'add_short_description' ) ); */
+			/** Add_filter( 'woocommerce_cart_item_name', array( DescriptionProduct::class, 'add_excerpt_in_cart_item_name' ), 10, 3 );*/
 		}
 
 		/**
 		 * Register_classes function.
 		 */
 		private function register_classes() {
-
+			/** EnqueueScripts::instance();*/
 		}
 
 		/**

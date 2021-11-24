@@ -7,3 +7,12 @@
 * PSR-4
 * PHP >= 7.4
 * WooCommerce Sniffs
+
+Servidor
+```php
+ npm run wp-env start -- --update
+```
+
+FrontEnd
+Backend
+Links Úteis

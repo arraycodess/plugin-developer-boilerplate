@@ -22,9 +22,6 @@ if ( ! class_exists( 'Deactivate' ) ) :
 		 *  Deactivate
 		 */
 		public static function deactivate() {
-			$log       = new \WC_Logger();
-			$log_entry = 'deactivate function';
-			$log->add( 'plugin-developer-boilerplate', $log_entry );
 			flush_rewrite_rules();
 		}
 

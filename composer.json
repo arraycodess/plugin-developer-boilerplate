@@ -17,6 +17,7 @@
       }
     },
     "require-dev": {
-      "squizlabs/php_codesniffer": "3.*"
+      "squizlabs/php_codesniffer": "3.*",
+        "woocommerce/woocommerce-sniffs": "^0.1.1"
     }
 }

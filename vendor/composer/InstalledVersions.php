@@ -30,19 +30,19 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '51ae4cc35fc85ce05afbd9411984f31830c4381e',
+    'reference' => '2a06f89d275224ed6a5dedf3acda0fd2e3e149d1',
     'name' => 'heitor/plugin-developer-boilerplate',
   ),
   'versions' => 
   array (
     'dealerdirect/phpcodesniffer-composer-installer' => 
     array (
-      'pretty_version' => 'v0.7.0',
-      'version' => '0.7.0.0',
+      'pretty_version' => 'v0.7.1',
+      'version' => '0.7.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'e8d808670b8f882188368faaf1144448c169c0b7',
+      'reference' => 'fe390591e0241955f22eb9ba327d137e501c771c',
     ),
     'heitor/plugin-developer-boilerplate' => 
     array (
@@ -51,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '51ae4cc35fc85ce05afbd9411984f31830c4381e',
+      'reference' => '2a06f89d275224ed6a5dedf3acda0fd2e3e149d1',
     ),
     'phpcompatibility/php-compatibility' => 
     array (
@@ -73,30 +73,30 @@ private static $installed = array (
     ),
     'phpcompatibility/phpcompatibility-wp' => 
     array (
-      'pretty_version' => '2.1.0',
-      'version' => '2.1.0.0',
+      'pretty_version' => '2.1.2',
+      'version' => '2.1.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '41bef18ba688af638b7310666db28e1ea9158b2f',
+      'reference' => 'a792ab623069f0ce971b2417edef8d9632e32f75',
     ),
     'squizlabs/php_codesniffer' => 
     array (
-      'pretty_version' => '3.6.0',
-      'version' => '3.6.0.0',
+      'pretty_version' => '3.6.1',
+      'version' => '3.6.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ffced0d2c8fa8e6cdc4d695a743271fab6c38625',
+      'reference' => 'f268ca40d54617c6e06757f83f699775c9b3ff2e',
     ),
     'woocommerce/woocommerce-sniffs' => 
     array (
-      'pretty_version' => '0.1.0',
-      'version' => '0.1.0.0',
+      'pretty_version' => '0.1.1',
+      'version' => '0.1.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b72b7dd2e70aa6aed16f80cdae5b1e6cce2e4c79',
+      'reference' => 'eb604d751b61c42f31ff1aa24113c7c0de438553',
     ),
     'wp-coding-standards/wpcs' => 
     array (

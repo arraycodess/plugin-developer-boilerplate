@@ -2,30 +2,30 @@
     "packages": [
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.7.0",
-            "version_normalized": "0.7.0.0",
+            "version": "v0.7.1",
+            "version_normalized": "0.7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7"
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/e8d808670b8f882188368faaf1144448c169c0b7",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/fe390591e0241955f22eb9ba327d137e501c771c",
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
                 "php": ">=5.3",
-                "squizlabs/php_codesniffer": "^2 || ^3 || 4.0.x-dev"
+                "squizlabs/php_codesniffer": "^2.0 || ^3.0 || ^4.0"
             },
             "require-dev": {
                 "composer/composer": "*",
                 "phpcompatibility/php-compatibility": "^9.0",
                 "sensiolabs/security-checker": "^4.1.0"
             },
-            "time": "2020-06-25T14:57:39+00:00",
+            "time": "2020-12-07T18:04:37+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin"
@@ -199,17 +199,17 @@
         },
         {
             "name": "phpcompatibility/phpcompatibility-wp",
-            "version": "2.1.0",
-            "version_normalized": "2.1.0.0",
+            "version": "2.1.2",
+            "version_normalized": "2.1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCompatibility/PHPCompatibilityWP.git",
-                "reference": "41bef18ba688af638b7310666db28e1ea9158b2f"
+                "reference": "a792ab623069f0ce971b2417edef8d9632e32f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityWP/zipball/41bef18ba688af638b7310666db28e1ea9158b2f",
-                "reference": "41bef18ba688af638b7310666db28e1ea9158b2f",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityWP/zipball/a792ab623069f0ce971b2417edef8d9632e32f75",
+                "reference": "a792ab623069f0ce971b2417edef8d9632e32f75",
                 "shasum": ""
             },
             "require": {
@@ -217,13 +217,13 @@
                 "phpcompatibility/phpcompatibility-paragonie": "^1.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5"
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
             },
             "suggest": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
                 "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
             },
-            "time": "2019-08-28T14:22:28+00:00",
+            "time": "2021-07-21T11:09:57+00:00",
             "type": "phpcodesniffer-standard",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -256,17 +256,17 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.6.0",
-            "version_normalized": "3.6.0.0",
+            "version": "3.6.1",
+            "version_normalized": "3.6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f268ca40d54617c6e06757f83f699775c9b3ff2e",
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
                 "shasum": ""
             },
             "require": {
@@ -278,7 +278,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
-            "time": "2021-04-09T00:54:41+00:00",
+            "time": "2021-10-11T04:00:11+00:00",
             "bin": [
                 "bin/phpcs",
                 "bin/phpcbf"
@@ -315,26 +315,26 @@
         },
         {
             "name": "woocommerce/woocommerce-sniffs",
-            "version": "0.1.0",
-            "version_normalized": "0.1.0.0",
+            "version": "0.1.1",
+            "version_normalized": "0.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/woocommerce-sniffs.git",
-                "reference": "b72b7dd2e70aa6aed16f80cdae5b1e6cce2e4c79"
+                "reference": "eb604d751b61c42f31ff1aa24113c7c0de438553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/woocommerce-sniffs/zipball/b72b7dd2e70aa6aed16f80cdae5b1e6cce2e4c79",
-                "reference": "b72b7dd2e70aa6aed16f80cdae5b1e6cce2e4c79",
+                "url": "https://api.github.com/repos/woocommerce/woocommerce-sniffs/zipball/eb604d751b61c42f31ff1aa24113c7c0de438553",
+                "reference": "eb604d751b61c42f31ff1aa24113c7c0de438553",
                 "shasum": ""
             },
             "require": {
-                "dealerdirect/phpcodesniffer-composer-installer": "0.7.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "php": ">=7.0",
-                "phpcompatibility/phpcompatibility-wp": "2.1.0",
-                "wp-coding-standards/wpcs": "2.3.0"
+                "phpcompatibility/phpcompatibility-wp": "^2.1.0",
+                "wp-coding-standards/wpcs": "^2.3.0"
             },
-            "time": "2020-08-06T18:23:45+00:00",
+            "time": "2021-07-29T17:25:16+00:00",
             "type": "phpcodesniffer-standard",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -356,7 +356,7 @@
             ],
             "support": {
                 "issues": "https://github.com/woocommerce/woocommerce-sniffs/issues",
-                "source": "https://github.com/woocommerce/woocommerce-sniffs/tree/master"
+                "source": "https://github.com/woocommerce/woocommerce-sniffs/tree/0.1.1"
             },
             "install-path": "../woocommerce/woocommerce-sniffs"
         },
