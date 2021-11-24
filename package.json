@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp watch",
     "production": "gulp",
+    "build": "./bin/build-zip.sh",
     "wp-env": "wp-env",
     "wp-env-activate-plugins": ""
   },
