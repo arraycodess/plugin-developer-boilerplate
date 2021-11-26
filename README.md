@@ -6,13 +6,6 @@
 ### Support
 * PSR-4
 * PHP >= 7.4
+* WP-Env
+* Gulp
 * WooCommerce Sniffs
-
-Servidor
-```php
- npm run wp-env start -- --update
-```
-
-FrontEnd
-Backend
-Links Úteis
